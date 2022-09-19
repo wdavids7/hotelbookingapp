@@ -1,0 +1,44 @@
+/* Reset */
+html,
+body {
+  font-family: 'Merienda', cursive; font-family: 'Poppins', sans-serif;
+  /* color: #40514e; */
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Remove Arrows/Spinners */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* Custom button colour */
+.custom-bg{
+  background-color: #E64848 !important;
+}
+
+.custom-bg:hover{
+  background-color: #C21010 !important;
+}
+
+.availability-form{
+  margin-top: -50px;
+  z-index: 2;
+  position: relative;
+}
+
+/* media-screens */
+@media screen and (max-width: 575px){
+  .availability-form{
+    margin-top: 25px;
+    padding: 0 35px;
+  }
+}
